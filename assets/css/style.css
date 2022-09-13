@@ -19,12 +19,47 @@ h1, h2{
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #2b2e2b;
+    color: #0f100f;
 }
 
 #logo{
     float: left;
     font-size: 300%;
+}
+
+/* nav menu styling*/
+
+#menu{
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+#menu li{
+    display: inline-block;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+#menu ul{
+    text-align: right;
+}
+
+#menu, #logo{
+    line-height: 55px;
+}
+
+#menu a{
+   text-decoration: none;
+   color: #0f100f;
+   font-family: Montserrat, sans-serif;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #0f100f;
+}
+
+.active{
+    border-bottom: 1px solid #0f100f;
 }
 #hero-image{
     height: 500px;
