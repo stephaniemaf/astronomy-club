@@ -61,8 +61,67 @@ h1, h2{
 .active{
     border-bottom: 1px solid #0f100f;
 }
-#hero-image{
+
+#hero-outer{
+   
     height: 500px;
     width: 100%;
-    background: url(../css/images/nasa-8.jpg) no-repeat center center;
+    overflow: hidden;
+    position: relative;
 }
+
+#hero-image{
+  
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+    padding-bottom: 60px;
+    
+    background: url(../css/images/nasa-8.jpg) no-repeat center center;
+    /*animation zoom*/
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+
+#about-club{
+    text-align: center;
+    height: 500px;
+    padding-top: 100px;
+    background-color: #2a363b;
+    
+}
+
+#why-join-left{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#why-learn-right{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    color: #fff;
+  
+}
+
+#why-stay-middle{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    color: #fff;
+  
+}
+
+
