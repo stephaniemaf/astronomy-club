@@ -75,10 +75,8 @@ h1, h2{
     height: 500px;
     width: auto;
     object-fit: cover;
-    padding-bottom: 60px;
-    
     background: url(../css/images/nasa-8.jpg) no-repeat center center;
-    /*animation zoom*/
+    /*animation-zoom*/
     animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: backwards;
@@ -97,31 +95,31 @@ h1, h2{
     text-align: center;
     height: 500px;
     padding-top: 100px;
-    background-color: #2a363b;
-    
 }
 
 #why-join-left{
     padding-top: 30px;
     width: 33%;
-    margin: 0 auto;
-    color: #fff;
+    margin: 0 auto; 
 }
 
 #why-learn-right{
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    color: #fff;
-  
 }
 
 #why-stay-middle{
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    color: #fff;
-  
+} 
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
+
 
 
