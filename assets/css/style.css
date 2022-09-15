@@ -75,7 +75,10 @@ h1, h2{
     height: 500px;
     width: auto;
     object-fit: cover;
-    background: url(../css/images/nasa-8.jpg) no-repeat center center;
+    background: url(../css/images/telescopnew.jpg) no-repeat center center;
+    background-size: cover;
+    border: 2px solid white;
+    padding: 20px 20px 20px 20px;
     /*animation-zoom*/
     animation-name: hero-zoom;
     animation-duration: 3s;
@@ -95,6 +98,8 @@ h1, h2{
     text-align: center;
     height: 500px;
     padding-top: 100px;
+    background-color: #3a3a3a;
+    color: #fff;
 }
 
 .why-join-left{
@@ -147,3 +152,17 @@ hr {
     color: #fff;
 }
 
+.social-net{
+    text-align: center;
+}
+
+.social-net li{
+    display: inline;
+}
+
+.social-net i{
+    font-size: 120%;
+    margin: 2%;
+    padding: 2%;
+    color: darkslategray;
+}
