@@ -97,19 +97,19 @@ h1, h2{
     padding-top: 100px;
 }
 
-#why-join-left{
+.why-join-left{
     padding-top: 30px;
     width: 33%;
     margin: 0 auto; 
 }
 
-#why-learn-right{
+.why-learn-right{
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
 }
 
-#why-stay-middle{
+.why-stay-middle{
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
@@ -121,5 +121,29 @@ hr {
     margin: 5px 0;
 }
 
+#times{
+    background-image: url(../css/images/times.jpg);
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
 
+#times div{
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+    width: 33%;
+    height: 200px;
+    float: left;
+    padding: 20px 20px 20px 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2{
+    color: #fff;
+}
 
