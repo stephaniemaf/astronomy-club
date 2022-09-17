@@ -77,30 +77,63 @@ h1, h2{
     height: 500px;
     width: auto;
     object-fit: cover;
-    background: url(../css/images/stars-1845140_960_720.webp) no-repeat center center;
+    background: url(../css/images/earth-1151659__340.webp) no-repeat center center;
     background-size: cover;
     border: 2px solid white;
     padding: 20px 20px 20px 20px;
     /*animation-zoom*/
     animation-name: hero-zoom;
     animation-duration: 3s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: forwards;
 }
-#hero-image p{
+.slide-1, .slide-2, .slide-3{
     color: #fff;
-    text-align: center;
     font-size: 200%;
-    padding: 150px;
+    padding: 100px 100px 100px 100px;
     font-family: Dancing Script, sans-serif;
+    position: absolute;
+    display: block;
+    top: 2em;
+    width: 60%;
+    animation-duration: 25s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
+.slide-1{
+    animation-name: anim-1;
+}
+
+.slide-2{
+    animation-name: anim-2;
+}
+
+.slide-3{
+    animation-name: anim-3;
+}
+
+@keyframes anim-1{
+    0%, 8.3% {left:-100%; opacity: 0;}
+    8.3%, 25% {left: 25%; opacity: 1;}
+    66.66%, 100% {left: 110%; opacity: 0;}
+}
+
+@keyframes anim-2{
+    0%, 33.33% {left:-100%; opacity: 0;}
+    41.63%, 58.29% {left: 25%; opacity: 1;}
+    66.66%, 100% {left: 110%; opacity: 0;}
+}
+
+@keyframes anim-3{
+    0%, 66.66% {left:-100%; opacity: 0;}
+    74.96%, 91.62%{left: 25%; opacity: 1;}
+    100%{left: 110%; opacity: 0;}
+}
 #hero-image h1{
     color: #fff;
     text-align: center;
     font-size: 300%;
-    font-family: Dancing Script, sans-serif;
-    
-    
+    font-family: Dancing Script, sans-serif;   
 }
 
 @keyframes hero-zoom {
@@ -231,7 +264,7 @@ hr {
 
 .signup-form{
     color: #fafafa;
-    margin: 200px 10% 0 0;
+    margin: 175px 10% 0 0;
     background-color: rgba(60, 60, 60, 0.7);
     padding: 40px;
     left: 15%;
