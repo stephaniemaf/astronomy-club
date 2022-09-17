@@ -13,8 +13,6 @@ body{
     color: #2b302c;
 }
 
-/*headings and logo*/
-
 h1, h2{
     font-family: Montserrat, sans-serif;
     font-weight: 300;
@@ -28,8 +26,6 @@ h1, h2{
     font-size: 300%;
     border-bottom: #0f100f;
 }
-
-/* nav menu styling*/
 
 #menu{
     font-size: 100%;
@@ -86,6 +82,23 @@ h1, h2{
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
+
+#hero-image h1{
+    color: #fff;
+    text-align: center;
+    font-size: 300%;
+    font-family: Dancing Script, sans-serif;   
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+
 .slide-1, .slide-2, .slide-3{
     color: #fff;
     font-size: 200%;
@@ -94,7 +107,7 @@ h1, h2{
     position: absolute;
     display: block;
     top: 2em;
-    width: 60%;
+    width: 40%;
     animation-duration: 25s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -129,21 +142,6 @@ h1, h2{
     74.96%, 91.62%{left: 25%; opacity: 1;}
     100%{left: 110%; opacity: 0;}
 }
-#hero-image h1{
-    color: #fff;
-    text-align: center;
-    font-size: 300%;
-    font-family: Dancing Script, sans-serif;   
-}
-
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.05);
-    }
-}
 
 #about-club{
     text-align: center;
@@ -151,8 +149,8 @@ h1, h2{
     padding-top: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #3a3a3a;
-    color: #fff;
+    background-color: grey;
+    color: black;
 }
 
 .why-join-left{
@@ -220,8 +218,6 @@ hr {
     color: darkslategray;
 }
 
-/*UpComing Events styling*/
-
 #meteor{
     background-image: url(../css/images/meteor-rain-night-sky-neon-space-illustration_33099-1866.jpg);
     height: 300px;
@@ -251,8 +247,6 @@ hr {
 #photo-comp h1{
     color: #fff;
 }
-
-/*sign up page*/
 
 .form-section{
     clear: left;
@@ -305,4 +299,24 @@ hr {
 .join-button:hover{
     background-color: #3a3a3a;
     color: palevioletred;
+}
+
+#picture{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 2px; 
+}
+
+#picture > img{
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+@media screen and(max-width:1200px) {
+    #about-club{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 }
