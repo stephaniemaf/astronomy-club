@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 *{
     margin: 0;
@@ -103,7 +103,7 @@ h1, h2{
     color: #fff;
     font-size: 200%;
     padding: 100px 100px 100px 100px;
-    font-family: Dancing Script, sans-serif;
+    font-family: Courgette, sans-serif;
     position: absolute;
     display: block;
     top: 2em;
@@ -146,27 +146,24 @@ h1, h2{
 #about-club{
     text-align: center;
     height: 500px;
-    padding-top: 100px;
+    padding-top: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: grey;
     color: black;
 }
 
-.why-join-left{
+.why-join-top{
     padding-top: 30px;
+    padding-bottom: 60px;
     width: 33%;
     margin: 0 auto; 
 }
 
-.why-learn-right{
-    padding-top: 30px;
-    width: 33%;
-    margin: 0 auto;
-}
+
 
 .why-stay-middle{
-    padding-top: 30px;
+    padding-top: 60px;
     width: 33%;
     margin: 0 auto;
 } 
@@ -316,7 +313,61 @@ hr {
 @media screen and(max-width:1200px) {
     #about-club{
         width: 65%;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .why-join-top, .why-stay-middle{
+        max-width: 100%;
+        padding: 0;
+        float: left;
+    }
+    
+    #times > div{
+        max-width: 100%;
+        clear: both;
+        height: 100px;
+        padding: 0;
+    }
+
+    hr{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px){
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #about-club{
+        width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
+
+    .why-join-top, .why-stay-middle{
+        width: inherit;
+    }
+
+    .why-join-top h3, .why-stay-middle h3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .why-join-top p, .why-stay-middle p{
+        text-align: center;
+        padding: 0 auto;
+    }
 }
+
+@media screen and (max-width: 800px){
+    #photos{
+        column-count: 2;
+    }
+}
+    
