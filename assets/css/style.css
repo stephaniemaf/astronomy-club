@@ -75,7 +75,7 @@ h1, h2{
     height: 500px;
     width: auto;
     object-fit: cover;
-    background: url(../css/images/earth-1151659__340.webp) no-repeat center center;
+    background: url(../images/earth-1151659__340.webp) no-repeat center center;
     background-size: cover;
     border: 2px solid white;
     padding: 20px 20px 20px 20px;
@@ -177,7 +177,7 @@ hr {
 }
 
 #times{
-    background-image: url(../css/images/times.jpg);
+    background-image: url(../images/times.jpg);
     width: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ hr {
 }
 
 #meteor{
-    background-image: url(../css/images/meteor-rain-night-sky-neon-space-illustration_33099-1866.jpg);
+    background-image: url(../images/meteor-rain-night-sky-neon-space-illustration_33099-1866.jpg);
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
@@ -229,7 +229,7 @@ hr {
 }
 
 #photo-comp{
-    background-image: url(../css/images/orion-nebula-11107_960_720.webp);
+    background-image: url(../images/orion-nebula-11107_960_720.webp);
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
@@ -249,7 +249,7 @@ hr {
 
 .form-section{
     clear: left;
-    background-image: url(../css/images/vintage-binocular-lens_1203-7776.jpg);
+    background-image: url(../images/vintage-binocular-lens_1203-7776.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;  
