@@ -315,8 +315,9 @@ hr {
 @media screen and(max-width:1200px) {
     #about-club{
         width: 65%;
-        height: 100px;
+        max-height: 50px;
         margin: 0 auto;
+        display: inline-block;
     }
 
     .why-join-top, .why-stay-middle{
@@ -349,7 +350,6 @@ hr {
 
     #about-club{
         width: 90%;
-        height: 1200px;
         margin: 0 auto;
     }
 
