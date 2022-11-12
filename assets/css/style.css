@@ -34,12 +34,15 @@ h1, h2{
     letter-spacing: 2px;
 }
 
+/* stops navigation heading form aligning vertically*/
 #menu li{
     display: inline-block;
     margin-right: 40px;
     list-style-type: none;
+    
 }
 
+/* allows navigation headings to align to the right*/
 #menu ul{
     text-align: right;
 }
@@ -346,6 +349,16 @@ hr {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        font-size: small;
+    }
+    #menu li{
+        display: inline-block;
+        margin-right: .5em;
+        list-style-type: none;
+    }
+    #menu ul{
+        text-align: left;
+        /* padding-right: ; */
     }
 
     #about-club{
