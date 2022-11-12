@@ -349,7 +349,7 @@ hr {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-        font-size: small;
+        font-size: smaller;
     }
     #menu li{
         display: inline-block;
