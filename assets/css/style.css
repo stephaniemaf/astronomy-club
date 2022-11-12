@@ -375,13 +375,11 @@ hr {
         padding-top: 150px;
     }
     .slide-2{
-        animation-timing-function: ease-in;
-        
+        animation-timing-function: ease-in;  
     }
 
     #about-club{
         width: 100%;
-        /* margin: 0 auto; */
     }
 
     .why-join-top, .why-stay-middle{
@@ -397,8 +395,11 @@ hr {
         text-align: center;
         padding: 10px auto;
     }
-    #times{
-        vertical-align: middle;
+    #times > div{
+        float: none;
+        margin: 0;
+        width: 100%;
+        
     }
 }
 
