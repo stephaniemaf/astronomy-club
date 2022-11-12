@@ -358,7 +358,22 @@ hr {
     }
     #menu ul{
         text-align: left;
-        /* padding-right: ; */
+    }
+
+    .slide-1, .slide-2, .slide-3{
+        font-size: 150%;
+        padding-left: 20px;
+        padding-right: 20px;
+        animation-timing-function: ease-in-out;
+        
+    }
+    .slide-1{
+        animation-timing-function: ease-out;
+        padding-top: 150px;
+    }
+    .slide-2{
+        animation-timing-function: ease-in;
+        
     }
 
     #about-club{
