@@ -154,8 +154,11 @@ h1, h2{
     padding-top: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: grey;
     color: black;
+   
 }
 
 .why-join-top{
@@ -317,9 +320,9 @@ hr {
 
 @media screen and(max-width:1200px) {
     #about-club{
-        width: 65%;
+        width: 100%;
         max-height: 50px;
-        margin: 0 auto;
+        
         display: inline-block;
     }
 
@@ -349,7 +352,7 @@ hr {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-        font-size: smaller;
+        font-size: small;
     }
     #menu li{
         display: inline-block;
@@ -377,8 +380,8 @@ hr {
     }
 
     #about-club{
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
+        /* margin: 0 auto; */
     }
 
     .why-join-top, .why-stay-middle{
@@ -392,7 +395,10 @@ hr {
 
     .why-join-top p, .why-stay-middle p{
         text-align: center;
-        padding: 0 auto;
+        padding: 10px auto;
+    }
+    #times{
+        vertical-align: middle;
     }
 }
 
