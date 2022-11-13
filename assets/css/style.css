@@ -349,10 +349,10 @@ hr {
     #menu{
         clear: left;
         float: left;
-        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-        font-size: small;
+        font-size: 13px;
+        
     }
     #menu li{
         display: inline-block;
@@ -362,6 +362,11 @@ hr {
     #menu ul{
         text-align: left;
     }
+    #menu a{
+        text-decoration: none;
+        color: #0f100f;
+        font-family: Montserrat, sans-serif;
+     }
     .slide-1, .slide-2, .slide-3{
         font-size: 150%;
         padding-left: 20px;
@@ -432,7 +437,10 @@ hr {
         margin: 10px 10px 10px
     }
 
-
+    .signup-form{
+        margin-top: 100px;
+        margin-right: 50px;
+    }
 }
 
 @media screen and (max-width: 800px){
