@@ -362,7 +362,6 @@ hr {
     #menu ul{
         text-align: left;
     }
-
     .slide-1, .slide-2, .slide-3{
         font-size: 150%;
         padding-left: 20px;
@@ -398,9 +397,42 @@ hr {
     #times > div{
         float: none;
         margin: 0;
-        width: 100%;
-        
+        width: 100%;   
     }
+
+    #event-menu li{
+        display: inline-block;
+        margin-right: .5em;
+        list-style-type: none;
+    }
+    #event-menu ul{
+        text-align: left;
+    }
+
+    #event-menu a{
+        text-decoration: none;
+        color: #0f100f;
+        font-family: Montserrat, sans-serif;
+     }
+     
+     #event-menu a:hover{
+         border-bottom: 1px solid #0f100f;
+     }
+
+    #meteor{
+        margin-top: 40px;
+        margin: 10px 0 10px;
+    }
+
+    #photo-comp{
+        margin: 10px 0 10px;
+    }
+
+    h2, p{
+        margin: 10px 10px 10px
+    }
+
+
 }
 
 @media screen and (max-width: 800px){
