@@ -118,10 +118,13 @@ h1, h2{
 
 .slide-1{
     animation-name: anim-1;
+    animation-timing-function: ease-out;
+    padding-top: 150px;
 }
 
 .slide-2{
     animation-name: anim-2;
+    animation-timing-function: ease-in;
 }
 
 .slide-3{
