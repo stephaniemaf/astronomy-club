@@ -222,6 +222,38 @@ hr {
     color: darkslategray;
 }
 /*css styling for upcoming events page*/
+
+#menu{
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+/* stops navigation heading form aligning vertically*/
+#event-menu li{
+    display: inline-block;
+    margin-right: 40px;
+    list-style-type: none;
+    
+}
+
+/* allows navigation headings to align to the right*/
+#event-menu ul{
+    text-align: right;
+}
+
+#event-menu, #logo{
+    line-height: 55px;
+}
+
+#event-menu a{
+   text-decoration: none;
+   color: #0f100f;
+   font-family: Montserrat, sans-serif;
+}
+
+#event-menu a:hover{
+    border-bottom: 1px solid #0f100f;
+}
 #meteor{
     background-image: url(../images/meteor-rain-night-sky-neon-space-illustration_33099-1866.jpg);
     height: 300px;
