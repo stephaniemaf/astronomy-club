@@ -71,6 +71,8 @@ Unfortunatly I could not fix this so I removed some text to avoid the problem. I
 The Live link to site is here - (https://stephaniemaf.github.io/astronomy-club/)
 
 # Credits:
+* [codepen](https://codepen.io/nucliweb/pen/OJXYwm) - Code i used to have my quotes ease in and out on home page.
+
 
 ## Content:
 * The idea and code for my website was based of the love running project we did during class. Link here:
