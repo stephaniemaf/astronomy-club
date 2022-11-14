@@ -6,7 +6,7 @@
     padding: 0;
     border: none;
 }
-
+/*home page css*/
 body{
     font-family: Playfair Display, sans-serif;
     font-weight: 300;
@@ -60,13 +60,12 @@ h1, h2{
 #menu a:hover{
     border-bottom: 1px solid #0f100f;
 }
-
+/*css styling for the current page being viewed*/
 .active{
     border-bottom: 1px solid #0f100f;
 }
 
 #hero-outer{
-   
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -74,7 +73,6 @@ h1, h2{
 }
 
 #hero-image{
-  
     height: 500px;
     width: auto;
     object-fit: cover;
@@ -94,7 +92,7 @@ h1, h2{
     font-size: 300%;
     font-family: Dancing Script, sans-serif;   
 }
-
+/*code to allow the quotes to ease in and out of screen and timing for this*/
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -182,6 +180,7 @@ hr {
     margin: 5px 0;
 }
 
+/*css styling for the images and text for times and places of meet ups */
 #times{
     background-image: url(../images/times.jpg);
     width: 100%;
@@ -207,7 +206,7 @@ hr {
 #times h2{
     color: #fff;
 }
-
+/*css styling for sicial media links*/
 .social-net{
     text-align: center;
 }
@@ -222,7 +221,7 @@ hr {
     padding: 2%;
     color: darkslategray;
 }
-
+/*css styling for upcoming events page*/
 #meteor{
     background-image: url(../images/meteor-rain-night-sky-neon-space-illustration_33099-1866.jpg);
     height: 300px;
@@ -253,6 +252,7 @@ hr {
     color: #fff;
 }
 
+/*css styling for sign up page*/
 .form-section{
     clear: left;
     background-image: url(../images/vintage-binocular-lens_1203-7776.jpg);
@@ -275,7 +275,7 @@ hr {
     color: #fafafa;
     margin-bottom: 30px;
 }
-
+/*stling for form on sign up page*/
 .text-input{
     background: transparent;
     color: #fafafa;
@@ -306,6 +306,7 @@ hr {
     color: palevioletred;
 }
 
+/*css styling for gallery page*/
 #picture{
     clear: both;
     line-height: 0;
@@ -318,6 +319,7 @@ hr {
     margin-bottom: 2px;
 }
 
+/*responsive css styling for larger screens*/
 @media screen and(max-width:1200px) {
     #about-club{
         width: 100%;
@@ -345,6 +347,7 @@ hr {
     }
 }
 
+/*responsive css styling for smaller screens*/
 @media screen and (max-width: 950px){
     #menu{
         clear: left;
@@ -443,6 +446,7 @@ hr {
     }
 }
 
+/*responsive css styling for gallery on smaller screens*/
 @media screen and (max-width: 800px){
     #photos{
         column-count: 2;
