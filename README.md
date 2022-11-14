@@ -1,7 +1,7 @@
 # Astro-club
 This project was created for an Astronomy club where people can come together to learn and enjoy viewing space in a safe enviornment. This is a site that wants to bring people together so they can learn about and share they're love of space. Where if your unsure of what equipment to be using during your observations, you can come to our club to find out. We have a mentor programme. In this programme you are paired up with your more advanced peers. We also have an astro photography class where you learn to take pictures of space. This site is targeted toward people with an interest in space. The site is useful for people to see when and where classes and meetings will be taking place. There is also a sign up page for them to be able to join up and enjoy all the aspects our club has to offer. 
 
-![amiresponsive](../astronomy-club/assets/images/Screenshot.png)
+![amiresponsive](assets/images/amirespon.png)
 
 
 # Existing Features:
@@ -29,7 +29,7 @@ Here the user will be able to click recognisable icons that will link them to ou
 ### Sign-Up Page:
 Here the user can enter their information and select any or all classes they would like to join.
 
-![sign-up image](../astronomy-club/css/images/sign-up.png)
+![sign-up image](../astronomy-club/assets/images/sign-up.png)
 
 ## Feature for future implementation:
 * In the fututre I would like to add another gallery page to showcase the astrophotography pictures our members have taken to show the kind of things you will learn in the class.
@@ -62,6 +62,7 @@ Unfortunatly I could not fix this so I removed some text to avoid the problem. I
     * Upon previous deployment a number of bugs where noticable relating to responsiveness for smaller screens. I completely rewrote and added more media queries to fix these issues and redeployed the site.
 
 * COMMITS: I had a lack in number and quality of commits in my previous deployment of my webite. So for resubmission when fixingg my website i had the intention to demonstrate better version control practises and make more commits with improved commit messages.
+
 
 The Live link to site is here - (https://stephaniemaf.github.io/astronomy-club/)
 
