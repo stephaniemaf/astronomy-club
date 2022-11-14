@@ -1,7 +1,7 @@
 # Astro-club
 This project was created for an Astronomy club where people can come together to learn and enjoy viewing space in a safe enviornment. This is a site that wants to bring people together so they can learn about and share they're love of space. Where if your unsure of what equipment to be using during your observations, you can come to our club to find out. We have a mentor programme. In this programme you are paired up with your more advanced peers. We also have an astro photography class where you learn to take pictures of space. This site is targeted toward people with an interest in space. The site is useful for people to see when and where classes and meetings will be taking place. There is also a sign up page for them to be able to join up and enjoy all the aspects our club has to offer. 
 
-![amiresponsive](../astronomy-club/assets/css/images/Screenshot.png)
+![amiresponsive](../astronomy-club/assets/images/Screenshot.png)
 
 
 # Existing Features:
@@ -11,25 +11,25 @@ This nav bar is on the top right of the site. From here you can go to the Home p
 ### The home page:
  This page starts with a photo of space with quotes easing in and out in 25s intervals. The section underneath this page tells the user what the benefits are to joining and what the site is about. Underneath this is another photo with the times and places that our classes will be held at. It also mentions the photography class.
 
- ![Homepage Photo](../astronomy-club/assets/css/images/homepage.png)
+ ![Homepage Photo](../astronomy-club/assets/images/homepage.png)
 
 ### The Footer: 
 Here the user will be able to click recognisable icons that will link them to our various social media pages.
 
-![Footer image](../astronomy-club/assets/css/images/footer.png)
+![Footer image](../astronomy-club/assets/images/footer.png)
 
 ### Upcoming Events:
  This page will tell the user of special events taking place this month. For instance in September there is a meteor shower event. This is a wonderful chnace to learn more about your interests. These events take place outside the normal hours of our observing meet ups. So they are another great way to meet new people with similar interests.
  
- ![upcoming-events](../astronomy-club/assets/css/images/upcoming.png)
+ ![upcoming-events](../astronomy-club/assets/images/upcoming.png)
 ### The gallery:
  The gallery shows images of our usual tagerts of observation. They have alt attributes attatched. They are images of the different planetary bodies we will be pointing our telescopes at.
 
-![gallery image](../astronomy-club/assets/css/images/solar%20system.png)
+![gallery image](../astronomy-club/assets/images/solar%20system.png)
 ### Sign-Up Page:
 Here the user can enter their information and select any or all classes they would like to join.
 
-![sign-up image](../astronomy-club/assets/css/images/sign-up.png)
+![sign-up image](../astronomy-club/css/images/sign-up.png)
 
 ## Feature for future implementation:
 * In the fututre I would like to add another gallery page to showcase the astrophotography pictures our members have taken to show the kind of things you will learn in the class.
@@ -56,6 +56,12 @@ Unfortunatly I could not fix this so I removed some text to avoid the problem. I
     * In the GitHub repository, click onto the Settings tab
     * From the source section drop-down menu, select the Master Branch
     * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+# Resubmission
+* BUG FIXES:
+    * Upon previous deployment a number of bugs where noticable relating to responsiveness for smaller screens. I completely rewrote and added more media queries to fix these issues and redeployed the site.
+
+* COMMITS: I had a lack in number and quality of commits in my previous deployment of my webite. So for resubmission when fixingg my website i had the intention to demonstrate better version control practises and make more commits with improved commit messages.
 
 The Live link to site is here - (https://stephaniemaf.github.io/astronomy-club/)
 
