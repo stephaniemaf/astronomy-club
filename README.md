@@ -61,9 +61,11 @@ Unfortunatly I could not fix this so I removed some text to avoid the problem. I
 * BUG FIXES:
     * Upon previous deployment a number of bugs where noticable relating to responsiveness for smaller screens. I completely rewrote and added more media queries to fix these issues and redeployed the site.
 
-* COMMITS: I had a lack in number and quality of commits in my previous deployment of my webite. So for resubmission when fixingg my website i had the intention to demonstrate better version control practises and make more commits with improved commit messages.
+* COMMITS: 
+    * I had a lack in number and quality of commits in my previous deployment of my webite. So for resubmission when fixingg my website i had the intention to demonstrate better version control practises and make more commits with improved commit messages.
 
-* HTML VALIDATOR TESTING: For my feedback i was told to use semantic HTML so i changed some Divs to Sections however, upon retesting in the html validator i recieved two warnings on the Index.html and Gallery.html for not having headings in a section. I changed these back to Divs and then recieved no warnings. All HTML pages now pass HTML validating.
+* HTML VALIDATOR TESTING: 
+    * For my feedback i was told to use semantic HTML so i changed some Divs to Sections however, upon retesting in the html validator i recieved two warnings on the Index.html and Gallery.html for not having headings in a section. I changed these back to Divs and then recieved no warnings. All HTML pages now pass HTML validating.
 
 * Contrast: There is no contrast issues now on the Upcoming-events page.
 ![lighthouse](assets/images/lighthouse.png)

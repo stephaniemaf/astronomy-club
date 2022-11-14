@@ -381,6 +381,8 @@ hr {
 
 /*responsive css styling for smaller screens*/
 @media screen and (max-width: 950px){
+
+    /*styling for menu on home, signup and gallery pages*/
     #menu{
         clear: left;
         float: left;
@@ -439,7 +441,7 @@ hr {
         margin: 0;
         width: 100%;   
     }
-
+    /* styling for menu on upcoming events page*/
     #event-menu li{
         display: inline-block;
         margin-right: .5em;
